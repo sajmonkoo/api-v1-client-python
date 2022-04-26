@@ -340,6 +340,7 @@ class Input:
             self.script = obj['script']
             self.script_sig = i['script']
             self.sequence = i['sequence']
+            self.hash = t['hash']
         else:
             # coinbase TX
             self.script_sig = i['script']
